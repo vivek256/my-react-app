@@ -1,11 +1,8 @@
 import "./register.css";
 import {useState} from 'react';
-import Alert from "../../components/Alert/Alert";
 import { useNavigate } from "react-router-dom";
 import { createUserWithEmailAndPassword,onAuthStateChanged } from "firebase/auth";
-import {auth,db} from '../../firebaseConfig'
-import { Posts } from "../../dummyData";
-// import {set, ref } from 'firebase/database'
+import {auth} from '../../firebaseConfig'
 
 export default function Register() {
 
