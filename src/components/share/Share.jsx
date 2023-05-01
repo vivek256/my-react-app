@@ -4,7 +4,7 @@ import { Posts } from "../../dummyData";
 import { useState } from "react";
 import { storage } from "../../firebaseConfig";
 import {ref, uploadBytes} from 'firebase/storage'
-import { upload } from "@testing-library/user-event/dist/upload";
+
 
 
 export default function Share({ handlePost }) {
